@@ -5,9 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <script src="script.js"></script>
+    <script src="chart.js"></script>
 </head>
-<body>
-    
+<body onload="init()">
+    <h1>Bitcoin-Kurs</h1>
+    <p>Der aktuelle Bitcoin-Kurs ist :</p>
+    <p id="course"></p>
+
+    <div>
+        <canvas id="myChart"></canvas>
+      </div>
+
 </body>
 </html>
